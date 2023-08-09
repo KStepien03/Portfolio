@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Porfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <main>
+      <div class="container">
+        <section class="left__panel">
+          <div class="text">
+            <div class="info">
+              <h1 class="name">Kacper Stępień</h1>
+              <h2 class="position">Junior Front End Developer</h2>
+              <p class="description">
+                I create responsive and user-friendly websites and web
+                applications that are pleasing to the human eye.
+              </p>
+            </div>
+            <div class="navigation">
+              <ul class="nav__list">
+                <li class="nav__link active-link" id="section1">
+                  <a href="#about"
+                    ><hr />
+                    About me</a
+                  >
+                </li>
+                <li class="nav__link" id="section2">
+                  <a href="#education"
+                    ><hr />
+                    Education</a
+                  >
+                </li>
+                <li class="nav__link" id="section3">
+                  <a href="#experience"
+                    ><hr />
+                    Experience</a
+                  >
+                </li>
+                <li class="nav__link" id="section4">
+                  <a href="#projects"
+                    ><hr />
+                    Projects</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="media">
+            <a
+              href="https://www.linkedin.com/in/kacper-st%C4%99pie%C5%84-26aa07278/"
+              target="_blank"
+              class="media__link"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a
+              href="https://github.com/KStepien03"
+              target="_blank"
+              class="media__link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+        </section>
+        <section class="right__panel">
+          <div class="about" id="about">
+            <p>
+              I am a graduate of Technical School No. 1 in Gliwice with the
+              specialization of IT Technician. Currently, I am very interested
+              in expanding my knowledge in the field of web design and web
+              application development.
+            </p>
+            <p>
+              I associate my future with creating programs for mobile devices
+              and computer software.
+            </p>
+            <p>
+              In my free time, I like to improve my knowledge and do sports -
+              especially cycling and gym.
+            </p>
+            <div class="cv">
+              <div class="button">
+                <a href="cv.pdf" download=""
+                  >Dawnload CV <i class="ri-arrow-right-up-line"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="education" id="education">
+            <div class="box" onclick="politechnika()">
+              <div class="left__side">
+                <p>OCT 2023 - PRESENT</p>
+              </div>
+              <div class="right__side">
+                <h3>
+                  Information Iechnology <i class="ri-arrow-right-up-line"></i
+                  ><br />
+                  Silesian Technical University
+                </h3>
+                <h4>Faculty of Automatics, Electronics and Computer Science</h4>
+              </div>
+            </div>
+            <div class="box" onclick="zsti()">
+              <div class="left__side">
+                <p>SEP 2019 - APR 2023</p>
+              </div>
+              <div class="right__side">
+                <h3>
+                  Technical School No. 1 in Gliwice
+                  <i class="ri-arrow-right-up-line"></i>
+                </h3>
+                <h4>Specialization of IT Technician</h4>
+                <ul class="education__list">
+                  <li class="education__link">
+                    Qualification INF.02 <strong>– 97%</strong>
+                  </li>
+                  <li class="education__link">
+                    Qualification INF.03 <strong>– 95%</strong>
+                  </li>
+                  <li class="education__link">
+                    Qualification in the profession of IT technician
+                    <strong>– 96%</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="experience" id="experience">
+            <div class="box" onclick="zlomnica()">
+              <div class="left__side">
+                <p>MAR - APR 2022</p>
+              </div>
+              <div class="right__side">
+                <h3>
+                  Śląskie Centrum Komputerowe in Gliwice
+                  <i class="ri-arrow-right-up-line"></i>
+                </h3>
+                <h4>Monthly practice</h4>
+                <p>
+                  Creation of a website using Grid technology and Flex,
+                  Diagnostics and repair of computer devices, Customer service
+                  using the company's services.
+                </p>
+              </div>
+            </div>
+            <div class="box" onclick="wodip()">
+              <div class="left__side">
+                <p>APR - MAY 2021</p>
+              </div>
+              <div class="right__side">
+                <h3>
+                  Regionalny Zespół Placówek
+                  <i class="ri-arrow-right-up-line"></i><br />Wsparcia Edukacji
+                  in Opole
+                </h3>
+                <h4>Monthly practice</h4>
+                <p>
+                  Designing and configuring a computer network, Installation and
+                  initial configuration of peripheral devices, Support for
+                  organizations cooperating with the company.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="left__side">
+                <h3>Abilities:</h3>
+              </div>
+              <ul class="skills__list">
+                <li class="skills__link">HTML</li>
+                <li class="skills__link">CSS</li>
+                <li class="skills__link">SCSS</li>
+                <li class="skills__link">JavaScript</li>
+                <li class="skills__link">jQuery</li>
+                <li class="skills__link">WordPress</li>
+                <li class="skills__link">Figma</li>
+                <li class="skills__link">PHP</li>
+                <li class="skills__link">MySQL</li>
+              </ul>
+            </div>
+          </div>
+          <div class="projects" id="projects">
+            <div class="box" onclick="built()">
+              <div class="left__side">
+                <img src="images/thebuilt.png" />
+              </div>
+              <div class="right__side">
+                <h3>TheBuilt Website <i class="ri-arrow-right-up-line"></i></h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Doloribus est porro dolor, vel asperiores harum ullam,
+                  deleniti, illum id voluptates fugit incidunt autem dolores
+                  qui?
+                </p>
+              </div>
+            </div>
+            <div class="box" onclick="cinema()">
+              <div class="left__side">
+                <img src="images/kino.png" />
+              </div>
+              <div class="right__side">
+                <h3>Cinema Website <i class="ri-arrow-right-up-line"></i></h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nostrum, consequatur iure quis amet cum unde architecto alias
+                  illum, molestiae obcaecati labore dolorum. Fugit, dolores quo.
+                </p>
+              </div>
+            </div>
+            <div class="box" onclick="universytet()">
+              <div class="left__side">
+                <img src="images/universytet.png" />
+              </div>
+              <div class="right__side">
+                <h3>
+                  Universytet Website <i class="ri-arrow-right-up-line"></i>
+                </h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Laboriosam maiores nisi dolorum quae similique expedita
+                  officia quas velit excepturi voluptatem vel soluta ut
+                  praesentium, dolore laudantium adipisci et recusandae dolor?
+                </p>
+              </div>
+            </div>
+            <div class="box" onclick="time()">
+              <div class="left__side">
+                <img src="images/time.png" />
+              </div>
+              <div class="right__side">
+                <h3>Time Website <i class="ri-arrow-right-up-line"></i></h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  porro eos doloremque, illum sed doloribus obcaecati
+                  praesentium corrupti pariatur odit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="script/main.js"></script>
+  </body>
+</html>
