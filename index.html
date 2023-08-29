@@ -18,6 +18,32 @@
     <div class="cursor"></div>
     <main>
       <div class="container">
+        <header class="header">
+          <p id="section-info"></p>
+          <div class="header__nav" id="header-nav">
+            <ul class="nav__list" >
+              <li class="nav__link active-link" id="section1v2">
+                <a href="#about"> About me</a>
+              </li>
+              <li class="nav__link" id="section2v2">
+                <a href="#education"> Education</a>
+              </li>
+              <li class="nav__link" id="section3v2">
+                <a href="#experience"> Experience</a>
+              </li>
+              <li class="nav__link" id="section4v2">
+                <a href="#projects"> Projects</a>
+              </li>
+            </ul>
+            <div class="header__close">
+              <i class="ri-close-line" id="header-close"></i>
+            </div>
+          </div>
+          <div class="header__toggle">
+            <p id="section-info"></p>
+            <i class="ri-menu-line" id="header-toggle"></i>
+          </div>
+        </header>
         <section class="left__panel">
           <div class="text">
             <div class="info">
@@ -105,8 +131,7 @@
               </div>
               <div class="right__side">
                 <h3>
-                  Information Iechnology <i class="ri-arrow-right-up-line"></i
-                  ><br />
+                  Informatics <i class="ri-arrow-right-up-line"></i><br />
                   Silesian Technical University
                 </h3>
                 <h4>Faculty of Automatics, Electronics and Computer Science</h4>
@@ -192,7 +217,7 @@
           </div>
           <div class="projects" id="projects">
             <div class="box" onclick="built()">
-              <div class="left__side">
+              <div class="left__side left__side__img">
                 <img src="images/thebuilt.png" />
               </div>
               <div class="right__side">
@@ -206,7 +231,7 @@
               </div>
             </div>
             <div class="box" onclick="cinema()">
-              <div class="left__side">
+              <div class="left__side left__side__img">
                 <img src="images/kino.png" />
               </div>
               <div class="right__side">
@@ -219,7 +244,7 @@
               </div>
             </div>
             <div class="box" onclick="universytet()">
-              <div class="left__side">
+              <div class="left__side left__side__img">
                 <img src="images/universytet.png" />
               </div>
               <div class="right__side">
@@ -235,7 +260,7 @@
               </div>
             </div>
             <div class="box" onclick="time()">
-              <div class="left__side">
+              <div class="left__side left__side__img">
                 <img src="images/time.png" />
               </div>
               <div class="right__side">
@@ -249,6 +274,27 @@
             </div>
           </div>
         </section>
+        <footer class="footer">
+          <div class="idk">
+            <a
+              href="https://www.linkedin.com/in/kacper-st%C4%99pie%C5%84-26aa07278/"
+              target="_blank"
+              class="media__link"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a
+              href="https://github.com/KStepien03"
+              target="_blank"
+              class="media__link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+          <div class="idkv2">
+            <p>&copy 2023 Kacper Stępień</p>
+          </div>
+        </footer>
       </div>
     </main>
     <script src="script/main.js"></script>
